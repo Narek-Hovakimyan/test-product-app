@@ -1,19 +1,26 @@
+# test-product-app
 # 🛍️ Products App — React + TypeScript + Redux Toolkit + Vite + Tailwind
 
----
-
-
-- **React 18**
-- **TypeScript**
-- **Redux Toolkit**
-- **React Router**
-- **TailwindCSS**
-- **Vite**
-- **LocalStorage (persistent store)**
+This project is a Single Page Application (SPA) where users can view, create, edit, and filter products.  
+All data is stored inside Redux Toolkit store and synchronized with localStorage for persistence.
 
 ---
 
+## 🚀 Tech Stack
 
+- React 18  
+- TypeScript  
+- Redux Toolkit  
+- React Router  
+- TailwindCSS  
+- Vite  
+- LocalStorage (persistent store)
+
+---
+
+## ▶️ How to Run the Project
+
+### 1. Clone the repository
 
 ```bash
-# test-product-app
+git clone https://github.com/username/products-app.git
