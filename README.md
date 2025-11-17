@@ -23,4 +23,5 @@ All data is stored inside Redux Toolkit store and synchronized with localStorage
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/username/products-app.git
+git clone https://github.com/username/test-products-app.git
+# test-product-app
