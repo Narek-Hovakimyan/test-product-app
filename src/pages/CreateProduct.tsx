@@ -21,19 +21,21 @@ export default function CreateProduct() {
 
   const submit = (e: React.FormEvent) => {
     e.preventDefault()
-    if (!title || !image || !description) { alert('Please fill all fields'); return }
+    if (!title || !image || !description) {
+      alert('Please fill all fields')
+      return
+    }
     dispatch(createProduct({ id: Date.now(), title, description, image }))
-    navigate('/products')
+    navigate('/')   // ★ FIXED
   }
 
   return (
-  
     <div className="p-6 max-w-md mx-auto">
       <div className="flex items-center justify-between mb-4">
         <h1 className="text-2xl font-bold">Create Product</h1>
 
         <button
-          onClick={() => navigate('/products')}
+          onClick={() => navigate('/')}   // ★ FIXED
           className="px-3 py-1 bg-gray-200 rounded"
         >
           ← Cancel
@@ -84,6 +86,5 @@ export default function CreateProduct() {
         </button>
       </form>
     </div>
-
   )
 }

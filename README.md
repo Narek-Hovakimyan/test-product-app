@@ -23,5 +23,16 @@ All data is stored inside Redux Toolkit store and synchronized with localStorage
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/username/test-products-app.git
-# test-product-app
+git clone https://github.com/Narek-Hovakimyan/test-product-app
+
+2. Navigate into the project folder
+cd products-app
+
+3. Install dependencies
+npm install
+
+4. Start the development server
+npm run dev
+
+5. Build the production version
+npm run build
